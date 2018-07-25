@@ -1,11 +1,11 @@
-# MarkDownでのドキュメント作成手順書
+# Markdownでのドキュメント作成手順書
 
-- [MarkDownでのドキュメント作成手順書](#markdown%E3%81%A7%E3%81%AE%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90%E6%89%8B%E9%A0%86%E6%9B%B8)
+- [Markdownでのドキュメント作成手順書](#markdown%E3%81%A7%E3%81%AE%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90%E6%89%8B%E9%A0%86%E6%9B%B8)
 	- [作業環境構築](#%E4%BD%9C%E6%A5%AD%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89)
 		- [Visual Studio Codeのインストール](#visual-studio-code%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
 		- [拡張機能のインストール](#%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
 	- [ドキュメント作成](#%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90)
-		- [MarkDownでドキュメントを作成する](#markdown%E3%81%A7%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B)
+		- [Markdownでドキュメントを作成する](#markdown%E3%81%A7%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B)
 		- [便利なコマンド](#%E4%BE%BF%E5%88%A9%E3%81%AA%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89)
 			- [Format Document](#format-document)
 			- [Markdown: Create Table of Contents](#markdown-create-table-of-contents)
@@ -23,21 +23,20 @@
 | 拡張機能                                                                                                                               | 説明                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja) | 日本語化。Visual Studio Codeの初回起動時に勧められるはず。 |
-| [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)                                  | MarkDownを編集するのに便利な機能が色々入っている           |
-| [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)                | MarkDownファイルを開くと自動でプレビューが表示される       |
-| [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)                                     | MarkDownの文法チェックを行う                               |
-| [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)                                                 | MarkDownをPDFに変換する                                    |
+| [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)                                  | Markdownを編集するのに便利な機能が色々入っている           |
+| [Auto-Open Markdown Preview](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)                | Markdownファイルを開くと自動でプレビューが表示される       |
+| [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)                                     | Markdownの文法チェックを行う                               |
+| [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)                                                 | MarkdownをPDFに変換する                                    |
 
 ## ドキュメント作成
 
-### MarkDownでドキュメントを作成する  
+### Markdownでドキュメントを作成する  
 
-この手順書のMarkDownは[ここ](https://github.com/pon3939/Manual)にあります
+この手順書のMarkdownは[ここ](https://github.com/pon3939/Manual)にあります
 
 ### 便利なコマンド
 
-F1キーを押してコマンドを入力すると実行できます
-
+F1キーを押してコマンドを入力すると実行できます  
 ![コマンド](command.PNG)
 
 #### Format Document
