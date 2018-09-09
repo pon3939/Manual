@@ -9,6 +9,9 @@
 		- [動作確認](#%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D)
 	- [初期設定](#%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A)
 	- [samba](#samba)
+	- [Docker](#docker)
+		- [インストール](#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+		- [動作確認](#%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D)
 
 ## 環境
 
@@ -138,3 +141,23 @@ printing = bsd
 sudo systemctl restart smbd nmbd
 sudo systemctl enable smbd nmbd
 ```
+
+## Docker
+
+### インストール
+
+コマンド1発でOK
+
+```bash
+curl -sSL https://get.docker.com | sh
+```
+
+### 動作確認
+
+下記を実行して、ブラウザからラズパイにアクセスして表示されればOK  
+
+```bash
+docker run -d -p 80:80 hypriot/rpi-busybox-httpd
+```
+
+![httpd](httpd.png)
